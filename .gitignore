@@ -4,3 +4,18 @@ __pycache__
 .pyc
 *.log
 *.pot
+
+# Ruby
+/rails/modular_monolith/.bundle
+
+/rails/modular_monolith/log/*
+/rails/modular_monolith/tmp/*
+!/rails/modular_monolith/log/.keep
+!/rails/modular_monolith/tmp/.keep
+
+/rails/modular_monolith/storage/*
+!/rails/modular_monolith/storage/.keep
+
+/rails/modular_monolith.byebug_history
+
+/rails/modular_monolith/config/master.key
