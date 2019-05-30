@@ -19,3 +19,16 @@ __pycache__
 /rails/modular_monolith.byebug_history
 
 /rails/modular_monolith/config/master.key
+
+# Laravel
+/laravel/modular_monolith/node_modules
+/laravel/modular_monolith/public/hot
+/laravel/modular_monolith/public/storage
+/laravel/modular_monolith/storage/*.key
+/laravel/modular_monolith/vendor
+/laravel/modular_monolith/.env
+/laravel/modular_monolith/.phpunit.result.cache
+/laravel/modular_monolith/Homestead.json
+/laravel/modular_monolith/Homestead.yaml
+/laravel/modular_monolith/npm-debug.log
+/laravel/modular_monolith/yarn-error.log
