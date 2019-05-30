@@ -32,3 +32,6 @@ __pycache__
 /laravel/modular_monolith/Homestead.yaml
 /laravel/modular_monolith/npm-debug.log
 /laravel/modular_monolith/yarn-error.log
+
+# Express
+/express/modular_monolith/node_modules
