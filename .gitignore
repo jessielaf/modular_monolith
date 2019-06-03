@@ -33,5 +33,33 @@ __pycache__
 /laravel/modular_monolith/npm-debug.log
 /laravel/modular_monolith/yarn-error.log
 
-# Express
-/express/modular_monolith/node_modules
+# Spring
+/spring/modular_monolith/HELP.md
+/spring/modular_monolith/target/
+!/spring/modular_monolith/.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+/spring/modular_monolith/.apt_generated
+/spring/modular_monolith/.classpath
+/spring/modular_monolith/.factorypath
+/spring/modular_monolith/.project
+/spring/modular_monolith/.settings
+/spring/modular_monolith/.springBeans
+/spring/modular_monolith/.sts4-cache
+
+### IntelliJ IDEA ###
+/spring/modular_monolith/.idea
+/spring/modular_monolith/*.iws
+/spring/modular_monolith/*.iml
+/spring/modular_monolith/*.ipr
+
+### NetBeans ###
+/spring/modular_monolith/nbproject/private/
+/spring/modular_monolith/nbbuild/
+/spring/modular_monolith/dist/
+/spring/modular_monolith/nbdist/
+/spring/modular_monolith/.nb-gradle/
+/spring/modular_monolith/build/
+
+### VS Code ###
+/spring/modular_monolith/.vscode/
