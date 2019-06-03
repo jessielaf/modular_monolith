@@ -9,6 +9,9 @@ class Shift extends Model
     public $start;
     public $end;
 
+    public $fillable = ['title', 'start', 'end'];
+    public $timestamps = false;
+
     public function employees()
     {
         return $this->belongsToMany(\App\Employees\Api::getModel());

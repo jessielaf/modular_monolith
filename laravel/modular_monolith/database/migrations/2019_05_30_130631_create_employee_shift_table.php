@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateShiftEmployeeTable extends Migration
+class CreateEmployeeShiftTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateShiftEmployeeTable extends Migration
      */
     public function up()
     {
-        Schema::create('shift_employee', function (Blueprint $table) {
+        Schema::create('employee_shift', function (Blueprint $table) {
             $table->increments('id');
             
             $table->integer('employee_id')->unsigned()->nullable();

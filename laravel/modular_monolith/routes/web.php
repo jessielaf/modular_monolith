@@ -16,5 +16,6 @@ Route::get('/', function () {
 });
 
 Route::resources([
-    'employees' => '\App\Employees\EmployeeController'
+    'employees' => '\App\Employees\EmployeeController',
+    'shifts' => '\App\Shifts\ShiftController'
 ]);
