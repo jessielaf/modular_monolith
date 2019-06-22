@@ -1,0 +1,12 @@
+<div>
+  {{ employee.name }}
+
+  <div>
+    Shifts:
+    <ul>
+      <li *ngFor="let shift of employee.shifts">
+        {{ shift.title }}
+      </li>
+    </ul>
+  </div>
+</div>

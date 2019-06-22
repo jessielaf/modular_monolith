@@ -1,0 +1,36 @@
+<form (submit)="submit()">
+  <div>
+    <label for="name">Name: </label>
+    <input
+      id="name"
+      [(ngModel)]="employee.name"
+      placeholder="Name"
+      type="text"
+      name="name"
+    />
+  </div>
+
+  <div>
+    <label for="birthDate">Birth date: </label>
+    <input
+      id="birthDate"
+      [(ngModel)]="employee.birth_date"
+      placeholder="01-04-1998"
+      type="text"
+      name="birthDate"
+    />
+  </div>
+
+  <div>
+    <label for="email">Email: </label>
+    <input
+      id="email"
+      [(ngModel)]="employee.email"
+      placeholder="jessie@example.com"
+      type="email"
+      name="email"
+    />
+  </div>
+
+  <button type="submit">Submit</button>
+</form>

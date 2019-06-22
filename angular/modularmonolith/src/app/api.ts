@@ -7,11 +7,8 @@ interface Service {
 }
 
 abstract class Api {
-  static exportedComponents(): any[] {
+  static exportedModules(): any[] {
     throw new Error("exportedModules not implemented in your api");
-  }
-  static exportedRoutes(): any[] {
-    throw new Error("exportedRoutes not implemented in your api");
   }
 
   static service(): any {

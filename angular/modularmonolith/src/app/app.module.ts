@@ -3,15 +3,13 @@ import { NgModule } from "@angular/core";
 
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
-import { ListComponent } from "./employees/list/list.component";
 import EmployeeApi from "./employees/api";
+import { HttpClientModule } from "@angular/common/http";
 
 @NgModule({
-  declarations: [AppComponent, ListComponent].concat(
-    EmployeeApi.exportedComponents()
-  ),
-  imports: [BrowserModule, AppRoutingModule].concat(
-    EmployeeApi.exportedRoutes()
+  declarations: [AppComponent],
+  imports: [BrowserModule, HttpClientModule, AppRoutingModule].concat(
+    EmployeeApi.exportedModules()
   ),
   providers: [],
   bootstrap: [AppComponent]
