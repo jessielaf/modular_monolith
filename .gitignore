@@ -63,3 +63,6 @@ __pycache__
 
 ### VS Code ###
 /spring/modular_monolith/.vscode/
+
+### NPM ###
+node_modules
