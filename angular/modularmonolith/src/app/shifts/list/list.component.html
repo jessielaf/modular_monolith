@@ -1,0 +1,7 @@
+<ul>
+  <li *ngFor="let shift of shifts">
+    <a [routerLink]="[shift.id]">{{ shift.title }}</a>
+  </li>
+</ul>
+
+<a [routerLink]="['create']">Create shift</a>

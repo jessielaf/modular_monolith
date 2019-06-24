@@ -1,0 +1,50 @@
+<form (submit)="submit()">
+  <div>
+    <label for="title">Title: </label>
+    <input
+      id="title"
+      [(ngModel)]="shift.title"
+      placeholder="title"
+      type="text"
+      name="title"
+    />
+  </div>
+
+  <div>
+    <label for="start">Start: </label>
+    <input
+      id="start"
+      [(ngModel)]="shift.start"
+      placeholder="24-06-2019"
+      type="text"
+      name="start"
+    />
+  </div>
+
+  <div>
+    <label for="end">End: </label>
+    <input
+      id="end"
+      [(ngModel)]="shift.end"
+      placeholder="24-06-2019"
+      type="text"
+      name="end"
+    />
+  </div>
+
+  <div>
+    <label for="employees">Employees: </label>
+    <select
+      id="employees"
+      [(ngModel)]="shift.employees"
+      name="employees"
+      multiple
+    >
+      <option *ngFor="let employee of employees" [value]="employee.id">{{
+        employee.name
+      }}</option>
+    </select>
+  </div>
+
+  <button type="submit">Submit</button>
+</form>

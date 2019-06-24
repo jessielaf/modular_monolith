@@ -1,9 +1,11 @@
 import { Observable } from "rxjs";
+import { Injectable } from "@angular/core";
 
-interface Service {
-  create(object: any): Observable<any>;
-  retrieve(id: number): Observable<any>;
-  overview(): Observable<any>;
+@Injectable()
+abstract class Service {
+  abstract create(object: any): Observable<any>;
+  abstract retrieve(id: number): Observable<any>;
+  abstract overview(): Observable<any>;
 }
 
 abstract class Api {

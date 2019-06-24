@@ -1,0 +1,12 @@
+<div>
+  {{ shift.title }}
+
+  <div>
+    Employees:
+    <ul *ngIf="shift.employees">
+      <li *ngFor="let employee of shift.employees">
+        {{ employee.name }}
+      </li>
+    </ul>
+  </div>
+</div>
