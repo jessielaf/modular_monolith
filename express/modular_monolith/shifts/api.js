@@ -3,8 +3,7 @@ import Api from "../api";
 const prefix = "/shifts/";
 
 export default class ShiftApi extends Api {
-  static views(app) {
-    const db = require("../db");
+  static views(app, db) {
     const Shift = db.Shift;
 
     const withEmployee = {

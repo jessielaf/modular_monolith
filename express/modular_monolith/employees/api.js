@@ -3,8 +3,7 @@ import Api from "../api";
 const prefix = "/employees/";
 
 export default class EmployeeApi extends Api {
-  static views(app) {
-    const db = require("../db");
+  static views(app, db) {
     const Employee = db.Employee;
 
     app.post(prefix, function(req, res) {
